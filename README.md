@@ -1,12 +1,16 @@
 # IOSL SS 2017: BCIDM
 
+The platoform provides the user with a desktop client developed in electron. The customer takes advantage of this desktop app to manage its identity. The user's identity is stored in the ethereum blockchain and each modification corresponds to a transaction. The transaction is created offline and uploaded to the blockchain with the help of the GSLS node/server. 
+
+The Global Social Lookup System (GSLS) server is implemented in java Spring Boot and has the main purpose of storing a blockchain node and send the signed transactions to the bc network. 
+
 ## Identity Management via Blockchain
 The aim of this project is to build a blockchain-based, distributed system for self-asserted identities for Distributed Online Social Networks (DOSN) in the Sonic ecosystem.
 
 ## Project structure
 The project has to main folders: 
-- **nodeClient**: contains the code of the client
-- **src**: contains the code of the GSLS server
+- **nodeClient**: contains the code of the client, it is developed in Electron, AngualarJS and Node.js
+- **src**: contains the code of the GSLS server: Java SpringBoot, Ethereum Solidity and Web3j. 
 
 ## How to run the project
 The steps in order to run the project are described in the list below: 
